@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle git-auto-stash",
-        "command": "git-auto-stash:toggle"
+        "label": "Force to execute auto stash.",
+        "command": "git-auto-stash:auto stash"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "git-auto-stash",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "git-auto-stash:toggle"
+              "label": "auto stash",
+              "command": "git-auto-stash:auto stash"
             }
           ]
         }
