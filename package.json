@@ -5,9 +5,6 @@
   "description": "A short description of your package",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "git-auto-stash:toggle"
-  },
   "repository": "https://github.com/Drunkar/git-auto-stash",
   "license": "MIT",
   "engines": {
