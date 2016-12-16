@@ -1,0 +1,19 @@
+{
+  "name": "git-auto-stash",
+  "main": "./lib/git-auto-stash",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "git-auto-stash:toggle"
+  },
+  "repository": "https://github.com/Drunkar/git-auto-stash",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "git-promise": "^0.2.0"
+  }
+}

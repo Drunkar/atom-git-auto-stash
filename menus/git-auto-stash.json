@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle git-auto-stash",
+        "command": "git-auto-stash:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "git-auto-stash",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "git-auto-stash:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
