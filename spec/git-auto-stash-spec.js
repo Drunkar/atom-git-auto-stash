@@ -15,7 +15,7 @@ describe('GitAutoStash', () => {
     activationPromise = atom.packages.activatePackage('git-auto-stash');
   });
 
-  describe('when the git-auto-stash:toggle event is triggered', () => {
+  describe('when the git-auto-stash:auto stash event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('GitAutoStash', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'git-auto-stash:toggle');
+      atom.commands.dispatch(workspaceElement, 'git-auto-stash:auto stash');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -55,7 +55,7 @@ describe('GitAutoStash', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'git-auto-stash:toggle');
+      atom.commands.dispatch(workspaceElement, 'git-auto-stash:auto stash');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('GitAutoStash', () => {
         // Now we can test for view visibility
         let gitAutoStashElement = workspaceElement.querySelector('.git-auto-stash');
         expect(gitAutoStashElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'git-auto-stash:toggle');
+        atom.commands.dispatch(workspaceElement, 'git-auto-stash:auto stash');
         expect(gitAutoStashElement).not.toBeVisible();
       });
     });

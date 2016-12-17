@@ -1,11 +1,11 @@
 {
   "name": "git-auto-stash",
   "main": "./lib/git-auto-stash",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Implementation of auto-save with git stash create and git stash store.",
   "keywords": [
   ],
-  "repository": "https://github.com/Drunkar/git-auto-stash",
+  "repository": "https://github.com/Drunkar/atom-git-auto-stash",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

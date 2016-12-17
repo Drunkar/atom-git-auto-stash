@@ -1,5 +1,8 @@
 # git-auto-stash package
 
-A short description of your package.
+Implementation of auto-save with `git stash create` and `git stash store`.
+You can specify intervals[min] to save and the max number of the auto-stash as parameters.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![screenshot.png](https://github.com/Drunkar/atom-git-auto-stash/blob/images/screenshot.png)
+
+![consoleshot.png](https://github.com/Drunkar/atom-git-auto-stash/blob/images/consoleshot.png)
