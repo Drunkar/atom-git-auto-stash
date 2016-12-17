@@ -6,7 +6,8 @@
   "keywords": [
     "git",
     "git stash",
-    "auto save"
+    "auto save",
+    "auto stash"
   ],
   "repository": "https://github.com/Drunkar/atom-git-auto-stash",
   "license": "MIT",
